@@ -1,3 +1,6 @@
+## `React Application`
+This is a react application which will be connecting to the API which is built in with the base framework as slim framework
+
 ### `yarn install`
 This will install the dependencies with the NPM
 
