@@ -1,0 +1,54 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+  
+input[type=button] {
+    width: 100%;
+    background-color: #555555;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+table > tr {
+    td, th {
+        text-align: left;
+        line-height: 15px;
+        line-height: 23px;
+        vertical-align: top;
+        padding: 5px 10px;
+    }
+}
+table tr:nth-child(even) { background: #CCC; }
+table tr:nth-child(odd) { background: #FFF; }
+.actionLinks {
+    cursor: pointer;
+}
+.icon {
+    height: auto;
+    width: 25px;
+}
+svg {
+    width: 25px;
+}
+.icon-eye {
+    stroke: currentColor;
+    fill: none;
+    text-decoration-skip: objects;
+}
+  
